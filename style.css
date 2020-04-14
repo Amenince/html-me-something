@@ -1,0 +1,140 @@
+:not(li) {
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+}
+
+article.content {
+    background-color: rgb(255, 255, 255, .2);
+    border-radius: 15px;
+    margin: 18px;
+    padding: 2px;
+}
+
+h1#head {
+    background-color: rgb(255, 255, 255, 0.2);
+    font-family: Cormorant, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 5px;
+}
+
+h3 {
+    font-family: Cormorant, Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: 24px;
+    text-align: center;
+}
+
+h3#about {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+section.foot ul {
+    clear: both;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+ul {
+    font-family: Cormorant, Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    clear: both;
+    font-size: 12px;
+    text-align: left;
+    align-content: center;
+    color: white;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+ul#skills {
+    margin: 10px;
+    padding: 5px;
+}
+
+ul.contact {
+    font-family: Cormorant, Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    clear: both;
+    font-size: 12px;
+    text-align: left;
+    align-content: center;
+    color: white;
+    margin: 0 auto;
+    padding: 5px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    text-align: center;
+}
+
+section p {
+    color: white;
+    text-align: left;
+}
+
+section.foot p {
+    clear: both;
+    text-align: center;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-family: Cormorant, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: right;
+    
+}
+
+img {
+    border-radius: 50%;
+    border: white solid 5px;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    padding: 5px;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-family: Cormorant, Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    font-size: 18px;
+    margin: 3px;
+    padding: 2px;
+    list-style-type: none;
+}
+
+footer ul {
+    clear: both;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+h4#inf0 {
+    font-family: Cormorant, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-decoration: underline;
+}
